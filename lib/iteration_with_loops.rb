@@ -8,8 +8,7 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do
         #str.concat(src[row_index][element_index])
       puts src[row_index][element_index]
-      if ("str"
-        <=>src[row_index][element_index]) != nil
+      if ("str"<=>src[row_index][element_index]) != nil
         str << src[row_index][element_index]
       end
       element_index += 1
