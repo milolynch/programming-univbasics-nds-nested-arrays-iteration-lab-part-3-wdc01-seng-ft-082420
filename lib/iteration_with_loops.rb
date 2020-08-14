@@ -9,7 +9,7 @@ def join_nested_strings(src)
         #str.concat(src[row_index][element_index])
       puts src[row_index][element_index]
       if ("str"<=>src[row_index][element_index]) != nil
-        str << src[row_index][element_index]
+        str << " ", src[row_index][element_index]
       end
       element_index += 1
     end
